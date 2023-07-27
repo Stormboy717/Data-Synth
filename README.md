@@ -33,8 +33,8 @@ You will also need an API key from OpenAI to access their language model. Make s
 ## Setup
 
 1. Clone this repository to your local machine:
-``` git clone https://github.com/your-username/medical-incident-report-generator.git
-cd medical-incident-report-generator ``` 
+```` ``` git clone https://github.com/your-username/medical-incident-report-generator.git
+cd medical-incident-report-generator```  
 2. Install the required Python packages:
 ``` pip install openai fpdf ```
 
@@ -46,8 +46,7 @@ You can obtain your OpenAI API key by signing up on their website (https://beta.
 
 Choose the script (`HSE Reports.py`, `Medical Reports Format2.py`, or `Medical Reports.py`) you want to use and execute it by running the following command:
 
-
-The script will generate a PDF report with a filename in the format `medical_report-YYYYMMDDHHMMSS.pdf`, where `YYYYMMDDHHMMSS` represents the current timestamp.
+The script will generate a PDF report with a filename in the format `xxxxxx_report-YYYYMMDDHHMMSS.pdf`, where `YYYYMMDDHHMMSS` represents the current timestamp.
 
 ## Customization
 
