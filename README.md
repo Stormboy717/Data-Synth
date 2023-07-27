@@ -6,11 +6,11 @@ This repository contains three Python scripts for generating medical incident re
 
 ### 1. HSE Reports.py
 
-This script generates a fake medical incident report following the Health, Safety, and Environment (HSE) format. The incident details, medical assessment, and treatment plan are organized in a structured manner suitable for HSE reporting.
+This script generates a fake Heath and safty  report following the Health, Safety, and Environment (HSE) format. The incident details, medical assessment, and treatment plan are organized in a structured manner suitable for HSE reporting.
 
 ### 2. Medical Reports Format2.py
 
-This script generates a fake medical incident report with a different layout from the HSE format. The report includes incident details, medical assessment, and treatment plan in a user-friendly format.
+This script also generates a fake medical incident report with a different layout from the Medical Reports.py. The report includes incident details, medical assessment, and treatment plan in a user-friendly format.
 
 ### 3. Medical Reports.py
 
