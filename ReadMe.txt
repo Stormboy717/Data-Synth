@@ -1,47 +1,5 @@
-Medical Incident Report Generator
-
-This script generates a fake medical incident report using OpenAI's GPT-3 language model and saves it as a PDF document. The report includes incident details, medical assessment, and a treatment plan. The generated PDF report follows a pamphlet-style design with incident details on top and shaded text boxes for medical assessment and treatment plan side by side.
-Prerequisites
-
-Before running the script, ensure you have the following components installed:
-
-    Python 3.x
-    openai Python package
-    fpdf Python package
-
-You will also need an API key from OpenAI to access their language model. Make sure to set up your OpenAI API key in the script before running it.
-Setup
-
-    Clone this repository to your local machine:
-
-bash
-
-git clone https://github.com/your-username/medical-incident-report-generator.git
-cd medical-incident-report-generator
-
-    Install the required Python packages:
-
-bash
-
-pip install openai fpdf
-
-    Set up your OpenAI API key:
-
-You can obtain your OpenAI API key by signing up on their website (https://beta.openai.com/signup/). Replace the empty string openai.api_key = '' in the script with your API key.
-Usage
-
-To generate a fake medical incident report, execute the script by running the following command:
-
-bash
-
-python medical_report_generator.py
-
-The script will generate a PDF report with a filename in the format medical_report-YYYYMMDDHHMMSS.pdf, where YYYYMMDDHHMMSS represents the current timestamp.
-Customization
-
-You can customize the generation of the medical incident report by modifying the generate_medical_report function in the script. The function currently generates a random patient name, date of incident, and description of the incident. You can edit the prompts to ask for specific information or provide fixed values.
-Acknowledgments
-
-The script uses OpenAI's GPT-3 language model to generate text. Special thanks to OpenAI for providing this powerful language model.
-
-Please note that this script generates fake medical reports for demonstration purposes only and should not be used for any actual medical documentation.
+<h1>Medical Incident Report Generator</h1><p>This repository contains three Python scripts for generating medical incident reports and a selection of logo images. Each script uses OpenAI's GPT-3 language model to generate a fake medical incident report and saves it as a PDF document. The reports include incident details, medical assessment, and a treatment plan. The generated PDF reports follow a pamphlet-style design with incident details on top and shaded text boxes for medical assessment and treatment plan side by side.</p><h2>Scripts</h2><h3>1. HSE Reports.py</h3><p>This script generates a fake medical incident report following the Health, Safety, and Environment (HSE) format. The incident details, medical assessment, and treatment plan are organized in a structured manner suitable for HSE reporting.</p><h3>2. Medical Reports Format2.py</h3><p>This script generates a fake medical incident report with a different layout from the HSE format. The report includes incident details, medical assessment, and treatment plan in a user-friendly format.</p><h3>3. Medical Reports.py</h3><p>This script also generates a fake medical incident report. It may follow a format similar to Medical Reports Format2.py or a custom layout based on user preferences.</p><h2>Logo Images</h2><p>Three logo images, namely <code>logo1.png</code>, <code>logo2.png</code>, and <code>logo3.png</code>, are provided as options for the PDF report's logo placement. You can choose the most suitable logo for your medical incident reports.</p><h2>Prerequisites</h2><p>Before running the scripts, ensure you have the following components installed:</p><ul><li>Python 3.x</li><li><code>openai</code> Python package</li><li><code>fpdf</code> Python package</li></ul><p>You will also need an API key from OpenAI to access their language model. Make sure to set up your OpenAI API key in each script before running it.</p><h2>Setup</h2><ol><li>Clone this repository to your local machine:</li></ol><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>bash</span><button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">git <span class="hljs-built_in">clone</span> https://github.com/your-username/medical-incident-report-generator.git
+<span class="hljs-built_in">cd</span> medical-incident-report-generator
+</code></div></div></pre><ol start="2"><li>Install the required Python packages:</li></ol><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>bash</span><button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">pip install openai fpdf
+</code></div></div></pre><ol start="3"><li>Set up your OpenAI API key:</li></ol><p>You can obtain your OpenAI API key by signing up on their website (<a href="https://beta.openai.com/signup/" target="_new">https://beta.openai.com/signup/</a>). Replace the empty string <code>openai.api_key = ''</code> in each script with your API key.</p><h2>Usage</h2><p>Choose the script (<code>HSE Reports.py</code>, <code>Medical Reports Format2.py</code>, or <code>Medical Reports.py</code>) you want to use and execute it by running the following command:</p><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>bash</span><button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">python script_name.py
+</code></div></div></pre><p>The script will generate a PDF report with a filename in the format <code>medical_report-YYYYMMDDHHMMSS.pdf</code>, where <code>YYYYMMDDHHMMSS</code> represents the current timestamp.</p><h2>Customization</h2><p>You can customize the generation of the medical incident report by modifying the respective <code>generate_medical_report</code> function in each script. The function currently generates random patient names, dates of incident, and descriptions of the incident. You can edit the prompts to ask for specific information or provide fixed values.</p><h2>Acknowledgments</h2><p>The scripts use OpenAI's GPT-3 language model to generate text. Special thanks to OpenAI for providing this powerful language model.</p><p>Please note that these scripts generate fake medical reports for demonstration purposes only and should not be used for any actual medical documentation.</p><h2>License</h2><p>This project is licensed under the MIT License - see the <a href="LICENSE" target="_new">LICENSE</a> file for details.</p><hr><p><strong>Note</strong>: Remember to replace <code>your-username</code> in the repository URL with your actual GitHub username if you plan to host this script on GitHub. Additionally, adjust the logo image filenames and file paths in the scripts according to your logo choices.</p>
