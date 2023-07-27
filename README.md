@@ -1,6 +1,6 @@
 # Medical Incident Report Generator
 
-This repository contains three Python scripts for generating medical incident reports and a selection of logo images. Each script uses OpenAI's GPT-3 language model to generate a fake medical incident report and saves it as a PDF document. The reports include incident details, medical assessment, and a treatment plan. The generated PDF reports follow a pamphlet-style design with incident details on top and shaded text boxes for medical assessment and treatment plan side by side.
+This repository contains three Python scripts for generating synthetic data. Each script uses OpenAI's GPT-3 language model to generate a fake medical incident report/HSE reports and saves it as a PDF document. The generated PDF reports follow a pamphlet-style design.
 
 ## Scripts
 
