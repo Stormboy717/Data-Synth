@@ -34,9 +34,9 @@ You will also need an API key from OpenAI to access their language model. Make s
 
 1. Clone this repository to your local machine:
 ```` ``` git clone https://github.com/your-username/medical-incident-report-generator.git
-cd medical-incident-report-generator```  
+cd medical-incident-report-generator``` ````  
 2. Install the required Python packages:
-``` pip install openai fpdf ```
+```` ``` pip install openai fpdf ``` ````
 
 3. Set up your OpenAI API key:
 
