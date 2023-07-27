@@ -7,7 +7,7 @@ while True:
     
 
     # Set up OpenAI API credentials
-    openai.api_key = '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'
+    openai.api_key = 'your key here'
 
     # Generate a unique value using ChatGPT
     def generate_unique_value(prompt):
