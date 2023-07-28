@@ -33,8 +33,8 @@ You will also need an API key from OpenAI to access their language model. Make s
 ## Setup
 
 1. Clone this repository to your local machine:
-`  git clone https://github.com/Stormboy717/Data-Synth.git
-cd Data-Synth `  
+`git clone https://github.com/Stormboy717/Data-Synth.git`
+`cd Data-Synth `  
 3. Install the required Python packages:
 ` pip install openai fpdf `
 
