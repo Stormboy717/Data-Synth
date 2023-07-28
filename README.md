@@ -34,11 +34,11 @@ You will also need an API key from OpenAI to access their language model. Make s
 
 1. Clone this repository to your local machine:
 `  git clone https://github.com/Stormboy717/Data-Synth.git
-cd medical-incident-report-generator `  
-2. Install the required Python packages:
+cd Data-Synth `  
+3. Install the required Python packages:
 ` pip install openai fpdf `
 
-3. Set up your OpenAI API key:
+4. Set up your OpenAI API key:
 
 You can obtain your OpenAI API key by signing up on their website (https://beta.openai.com/signup/). Replace the empty string `openai.api_key = ''` in each script with your API key.
 
